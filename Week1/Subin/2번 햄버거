@@ -1,0 +1,13 @@
+#왜안되지!!!! 재도전
+def solution(ingredient):
+    char =''.join(map(str,ingredient))
+    a=len(char)
+    while ('1231' in char):
+        char=char.replace('1231','')
+    b=len(char)
+    answer = (a-b)//4
+    return (answer)
+
+ingredient=[2,1,1,2,3,1,2,3,1]
+print(solution(ingredient)
+
