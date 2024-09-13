@@ -13,7 +13,6 @@ vector<int> solution(vector<int> arr)
             answer.push_back(arr[j]);
     }
 
-
     return answer;
 }
 
