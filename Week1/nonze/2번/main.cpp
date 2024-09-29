@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <vector>
 
 using namespace std;
